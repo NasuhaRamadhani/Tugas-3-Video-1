@@ -10,9 +10,9 @@ import android.widget.ListView;
 public class Mall extends ListActivity {
     protected void onCreate (Bundle icicle) {
         super.onCreate(icicle);
-        String[] listRumahSakit = new String[] {"Mall SKA Pekanbaru", "Living World Pekanbaru",
+        String[] listMall = new String[] {"Mall SKA Pekanbaru", "Living World Pekanbaru",
                 "Transmart Pekanbaru", "Mall Ciputra Seraya Pekanbaru"};
-        this.setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listRumahSakit));
+        this.setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listMall));
     }
 
     protected void onListItemClick (ListView l, View v, int position, long id) {

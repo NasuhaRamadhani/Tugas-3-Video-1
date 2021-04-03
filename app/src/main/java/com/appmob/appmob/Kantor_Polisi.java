@@ -10,8 +10,8 @@ import android.widget.ListView;
 public class Kantor_Polisi extends ListActivity {
     protected void onCreate (Bundle icicle) {
         super.onCreate(icicle);
-        String[] listRumahSakit = new String[] {"Polda Riau", "Ditlantas Polda Riau", "Polresta Pekanbaru"};
-        this.setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listRumahSakit));
+        String[] listKantorPolisi = new String[] {"Polda Riau", "Ditlantas Polda Riau", "Polresta Pekanbaru"};
+        this.setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listKantorPolisi));
     }
 
     protected void onListItemClick (ListView l, View v, int position, long id) {
