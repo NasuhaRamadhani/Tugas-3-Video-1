@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appmob.appmob">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppMob">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Hospital"></activity>
+        <activity android:name=".RSUD"></activity>
+        <activity android:name=".EkaHospital"></activity>
+        <activity android:name=".AuliaHospital"></activity>
+        <activity android:name=".AwalBrosPanam"></activity>
+        <activity android:name=".BudhiMulia"></activity>
+        <activity android:name=".Kantor_Polisi"></activity>
+        <activity android:name=".PoldaRiau"></activity>
+        <activity android:name=".DitlantasPolda"></activity>
+        <activity android:name=".PolrestaPku"></activity>
+        <activity android:name=".Mall"></activity>
+        <activity android:name=".SKAPku"></activity>
+        <activity android:name=".LWPku"></activity>
+        <activity android:name=".TRMPku"></activity>
+        <activity android:name=".CiputPku"></activity>
+        <activity android:name=".Universitas"></activity>
+        <activity android:name=".unri"></activity>
+        <activity android:name=".usr"></activity>
+        <activity android:name=".uir"></activity>
+        <activity android:name=".unilak"></activity>
+
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+</manifest>
